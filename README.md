@@ -1,3 +1,11 @@
+Can access my result on link:
+
+https://easybank-landingpage.vercel.app/
+
+
+
+
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
