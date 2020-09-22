@@ -2,6 +2,8 @@ Can access my result on link:
 
 https://easybank-landingpage.vercel.app/
 
+<h2> ALERT: </h2>
+Still miss some adjustments for mobile responsiveness (ex: toggle bar menu) and menu bar hover states.
 
 
 
