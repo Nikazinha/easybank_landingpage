@@ -53,7 +53,7 @@ p{
     font-size: 12px;
 }
 
-.nav-button{
+.nav-button-nav, .nav-button {
     border-radius:30px;
     border-style: none;
     padding:14px 48px;
@@ -61,7 +61,7 @@ p{
     background-image: linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
 }
 
-.nav-button a{
+.nav-button-nav a, .nav-button a{
     text-decoration:none;
     color: white;
 }
@@ -232,26 +232,82 @@ p{
     color: white;
 }
 
+/* Hide class */
+.home-container-mob{
+    display: none;
+}
+
 
 /******* MEDIA QUERY PARA MOBILE  *******/
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
 
+    /* Nav-bar */
 
-.home-container{
-    display: hide;
-    width: 100%;
-    height: 90vh;
-    align-items: center;
-    align-content: center;
-    margin: auto;
+.logo-img{
+    width:80px;
 }
+
+.nav-itens{
+    display: none;
+}
+
+.nav-button-nav {
+    display: none;
+}
+
+/* Home */
+.home-container{
+    display: none;
+}
+
+.home-container-mob{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin:0 10%;
+    
+}
+
+.img-mockup{
+    position: static;
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: 10% -50px; 
+ }
+ 
+ .img-bg-dk{
+    
+    object-fit: cover;
+    width: 300px; /* width of container */
+    height: 300px; /* height of container */
+    object-position: 150% -100px; 
+    right:0;
+    
+ }
+
+ .header-title {
+    font-size: 2rem;
+    
+}
+
+ .nav-button{
+    border-radius:30px;
+    border-style: none;
+    padding:7px 14px;
+    font-family: Public Sans;
+    font-size: 0.7rem;
+    background-image: linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+}
+
+
  
 /* Atributes */
+
 .attributes-container{
     margin-top: 10%;
-}  
-  
+}
 .attributes-card-container{
     display: block;
     margin: auto;
